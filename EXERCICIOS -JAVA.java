@@ -1,8 +1,8 @@
-EXERCÍCIOS
+/*EXERCÍCIOS
 
 1 - Usando a classe BufferedReader para entrada de dados, crie uma classe que receba o valor 
 de um produto e a porcentagem de desconto, calcule e mostre o valor do desconto e o valor do produto com o desconto.
-Observação: o valor do desconto é calculado por meio da fórmula: valor do desconto = valor do produto * percentual de desconto /100.
+Observação: o valor do desconto é calculado por meio da fórmula: valor do desconto = valor do produto * percentual de desconto /100.*/
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -26,12 +26,12 @@ public class CalculaDesconto {
     }
 }
 
-2 - Usando a classe Scanner para entrada de dados, faça uma classe que receba dois valores inteiros.
+/*2 - Usando a classe Scanner para entrada de dados, faça uma classe que receba dois valores inteiros.
 O primeiro valor corresponde à quantidade de pontos do líder do campeonato brasileiro de futebol.
 O segundo valor corresponde à quantidade de pontos do time lanterna.
 Considerando que cada vitória vale 3 pontos, elabore uma classe que calcule o número de vitórias necessárias para
 que o time lanterna alcance (ou ultrapasse) o líder.
-Por exemplo, supondo que as quantidades de ponto fornecidas sejam 40 e 22, então o número de vitórias apresentada na saída deverá ser 6, pois (40 - 22)/3 = 6;
+Por exemplo, supondo que as quantidades de ponto fornecidas sejam 40 e 22, então o número de vitórias apresentada na saída deverá ser 6, pois (40 - 22)/3 = 6;*/
 
 import java.util.Scanner;
 
@@ -52,12 +52,12 @@ public class CalcularVitorias {
     }
 }
 
-3 - O Imposto sobre a Transmissão de Bens Imóveis (ITBI) é aplicado sobre o valor de um imóvel a ser negociado.
+/*3 - O Imposto sobre a Transmissão de Bens Imóveis (ITBI) é aplicado sobre o valor de um imóvel a ser negociado.
 A base de cálculo do ITBI (o valor a ser considerado no cálculo) será o maior valor entre o valor de transação (o valor negociado) e o valor venal de referência
 (fornecido pela Prefeitura). Com base nisso, elabore uma classe que receba o valor da transação, o valor venal e o percentual de imposto.
 Após isso, encontre o maior valor e aplique o percentual sobre ele. Ao final, apresente o valor do imposto a ser pago.
 Observação: o valor do imposto a ser pago é calculado por meio da fórmula: valor do imposto = maior valor * percentual / 100. Para entrada e saída de dados utilize
-a classe JOptionPane.
+a classe JOptionPane.*/
 
 import javax.swing.JOptionPane;
 
@@ -74,9 +74,9 @@ public class CalcularITBI {
     }
 }
 
-4 - Usando a classe JOptionPane para entrada de dados, elabore uma classe que receba a nota de duas provas e de um trabalho.
+/*4 - Usando a classe JOptionPane para entrada de dados, elabore uma classe que receba a nota de duas provas e de um trabalho.
 Calcule e mostre a média e o resultado final (aprovado ou reprovado). Para calcular a média utilize a fórmula seguinte: 
-média = (nota da prova 1 + nota da prova 2 + nota do trabalho)/3. Considere que a média mínima para aprovação é 6.
+média = (nota da prova 1 + nota da prova 2 + nota do trabalho)/3. Considere que a média mínima para aprovação é 6.*/
 
 import javax.swing.JOptionPane;
 
@@ -93,10 +93,10 @@ public class CalcularMedia {
     }
 }
 
-5 - Considere a seguinte informação a respeito do cálculo da aposentadoria. Para se aposentar por idade, as mulheres precisam ter atingido 60 anos de idade
+/*5 - Considere a seguinte informação a respeito do cálculo da aposentadoria. Para se aposentar por idade, as mulheres precisam ter atingido 60 anos de idade
 e os homens 65. Já na aposentadoria por tempo de contribuição, o tempo mínimo exigido é de 30 anos para as mulheres e de 35 anos para os homens.
 Com base nessas informações , elabore uma classe que receba a idade de uma pessoa, seu sexo e a quantidade de anos de contribuição.
-A seguir calcule a quantidade de anos que falta de contribuição para se aposentar, ou então emita a mensagem: "Você já tem o direito a aposentadoria".
+A seguir calcule a quantidade de anos que falta de contribuição para se aposentar, ou então emita a mensagem: "Você já tem o direito a aposentadoria".*/
 
 import java.util.Scanner;
 
@@ -143,4 +143,5 @@ public class CalcularAposentadoria {
             System.out.println("Sexo inválido. Por favor, digite 'M' para masculino ou 'F' para feminino.");
         }
     }
+
 }
